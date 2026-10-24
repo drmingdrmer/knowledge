@@ -1,0 +1,51 @@
+baseURL: https://drmingdrmer.github.io/knowledge/
+locale: en-US
+title: Knowledge
+enableRobotsTXT: true
+capitalizeListTitles: false
+
+disableKinds:
+  - section
+  - taxonomy
+  - term
+  - rss
+
+menus:
+  main:
+    - name: Guide
+      pageRef: /start-here
+      weight: 10
+    - name: Blog
+      url: https://blog.openacid.com/
+      weight: 20
+    - name: GitHub
+      url: https://github.com/drmingdrmer/knowledge
+      weight: 30
+
+params:
+  name: Zhang Yanpo
+  description: Connected notes on distributed systems, mathematics, and software.
+  logo: assets/images/logo/icon-lemon-margin.png
+  knowledge:
+    renderer: renderer/canvas-render.js
+    vault: vault/
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - ['\[', '\]']
+            - ['$$', '$$']
+          inline:
+            - ['\(', '\)']
+            - ['$', '$']
+  highlight:
+    lineNos: false
+    noClasses: true
+    style: github
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
