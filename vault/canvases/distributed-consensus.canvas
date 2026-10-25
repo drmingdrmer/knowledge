@@ -3,7 +3,7 @@
     {
       "id": "majority",
       "type": "file",
-      "file": "distributed-consensus/majority.md",
+      "file": "notes/distributed-consensus/majority.md",
       "x": 0,
       "y": 180,
       "width": 360,
@@ -13,7 +13,7 @@
     {
       "id": "quorum-intersection",
       "type": "file",
-      "file": "distributed-consensus/quorum-intersection.md",
+      "file": "notes/distributed-consensus/quorum-intersection.md",
       "x": 480,
       "y": 180,
       "width": 360,
@@ -23,7 +23,7 @@
     {
       "id": "acceptor-promises",
       "type": "file",
-      "file": "distributed-consensus/acceptor-promises.md",
+      "file": "notes/distributed-consensus/acceptor-promises.md",
       "x": 480,
       "y": -240,
       "width": 360,
@@ -33,7 +33,7 @@
     {
       "id": "paxos",
       "type": "file",
-      "file": "distributed-consensus/paxos.md",
+      "file": "notes/distributed-consensus/paxos.md",
       "x": 960,
       "y": 0,
       "width": 360,

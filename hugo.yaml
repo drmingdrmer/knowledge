@@ -3,6 +3,20 @@ locale: en-US
 title: Knowledge
 enableRobotsTXT: true
 capitalizeListTitles: false
+module:
+  mounts:
+    - source: vault/pages
+      target: content
+    - source: static
+      target: static
+    - source: vault/canvases
+      target: static/canvases
+    - source: vault/notes
+      target: static/vault/notes
+    - source: vault/notes
+      target: static/vault
+      files:
+        - '**/*.md'
 
 disableKinds:
   - section
